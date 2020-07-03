@@ -7,7 +7,7 @@ Add this feed to an OpenWrt build's `feeds.conf.default` file:
 
 ```
 # Trusted-Home feed
-src-git trusted_home https://github.com/IrdetoServices/TrustedHome-Feed.git
+src-git trustedhome https://github.com/IrdetoServices/TrustedHome-Feed.git
 ```
 Update the local copy of the Trusted-Home feed with the OpenWrt `feeds` script:
 

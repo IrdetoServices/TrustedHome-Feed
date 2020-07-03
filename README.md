@@ -16,7 +16,7 @@ Update the local copy of the Trusted-Home feed with the OpenWrt `feeds` script:
 ./scripts/feeds install -a
 ```
 
-(The `./scripts/feeds install trustedhome` cannot work and it will show the next warning message
+(The `./scripts/feeds install trustedhome` cannot work and it will show this warning message:
 `
 WARNING: No feed for package 'trustedhome' found
 `, since this feed provides no underlying source URL, so please use `./scripts/feeds install -a` instead.)

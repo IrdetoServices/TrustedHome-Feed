@@ -17,7 +17,7 @@ define Package/unum
   URL:=http://www.minim.co
   MAINTAINER:=minim.co <support@minim.co>
   DEPENDS:=+libpthread +librt +libuci +jansson +libiwinfo \
-           +libcurl +libmbedtls
+           +libcurl +libmbedtls +zlib
   # Unable to enforce +@LIBCURL_MBEDTLS and have binary package dependencies
   # at the same time (will have to figure out later). The conditional 
   # dependencies like +!LIBCURL_MBEDTLS:libcurl aren't helping.
